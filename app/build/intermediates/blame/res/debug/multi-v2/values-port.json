@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

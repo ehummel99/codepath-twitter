@@ -1,0 +1,202 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9edbe71b7b5b82feeb61eb54e0f26838/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9639a028d3b3fb4ba2450e80cb36cc11/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5660002996e1878e3b9da89dd53ddaff/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/f3ce9c1577f251f2357e8e439dbc4b1f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/eabdacb098caf775a8b48845b15cca13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/6583022ad8a2e07db571e27ba0023d6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/bffa9023e64e84b2d1d7cff0073af80c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31d62617d1b057635bc03d045e12a98d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31c3339aef3a73a73e893511e8029f87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/fed3763393078567a8bf0dbb608a2204/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/f0303d147a495e1f12f1e4935ef711e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/33b76223b7b3d64b9baf71d00d3db348/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/400660749b81b46ca6eda932ff0f95b3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/3e621a5e00293742da0a2f50466ed26e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/f3e76415ecac3424949e867bc58a8e44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/bb0fe26166e12494f51a87ea950879e6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/34dd9c7faffb0127bdbb7f50b95cb40c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d95f693ed5d01f21f0ff05829a4596d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/a4821fcd05f710ecbf1808c1a5f028fa/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d2753e27700988a8e508f29696922f8c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31189383715e3fa0cb552d2ab4141cb8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/29637d37b72284107af72a1a87c59327/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8ad062e306d7df1dc1bbd3f85b33b5e3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/28a31802bb7b0af6e849bf32742120f3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/065c383e69a1df8d3b92083c35f54793/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/068b9822a4e0fe04813cf8bd27ba5d34/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8caf943342ae8fe4e0ca94ad63d5829b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5cf125d4ce7a7bdf0875b0af20335b1f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/b9a3a5195a1b5c770f53a1311433944c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/890cfcc7d516953988f7fe047b83e7ab/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/db6b59e2bc11f4029f46598d8ed556a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/16876368bbaadf52ebebd1a7efb264e9/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5660002996e1878e3b9da89dd53ddaff/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5660002996e1878e3b9da89dd53ddaff/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/a4821fcd05f710ecbf1808c1a5f028fa/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/a4821fcd05f710ecbf1808c1a5f028fa/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d2753e27700988a8e508f29696922f8c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d2753e27700988a8e508f29696922f8c/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/a4821fcd05f710ecbf1808c1a5f028fa/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:17:9-36:20
+	android:label
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:19:13-44
+	android:name
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:18:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:26:13-35:29
+action#android.intent.action.VIEW
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:30:27-75
+data
+ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:32:17-34:62
+	android:host
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:33:21-55
+	android:scheme
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:34:21-59
+uses-sdk
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9edbe71b7b5b82feeb61eb54e0f26838/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9edbe71b7b5b82feeb61eb54e0f26838/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9639a028d3b3fb4ba2450e80cb36cc11/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9639a028d3b3fb4ba2450e80cb36cc11/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5660002996e1878e3b9da89dd53ddaff/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5660002996e1878e3b9da89dd53ddaff/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/f3ce9c1577f251f2357e8e439dbc4b1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/f3ce9c1577f251f2357e8e439dbc4b1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/eabdacb098caf775a8b48845b15cca13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/eabdacb098caf775a8b48845b15cca13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/6583022ad8a2e07db571e27ba0023d6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/6583022ad8a2e07db571e27ba0023d6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/bffa9023e64e84b2d1d7cff0073af80c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/bffa9023e64e84b2d1d7cff0073af80c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31d62617d1b057635bc03d045e12a98d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31d62617d1b057635bc03d045e12a98d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31c3339aef3a73a73e893511e8029f87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31c3339aef3a73a73e893511e8029f87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/fed3763393078567a8bf0dbb608a2204/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/fed3763393078567a8bf0dbb608a2204/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/f0303d147a495e1f12f1e4935ef711e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/f0303d147a495e1f12f1e4935ef711e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/33b76223b7b3d64b9baf71d00d3db348/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/33b76223b7b3d64b9baf71d00d3db348/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/400660749b81b46ca6eda932ff0f95b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/400660749b81b46ca6eda932ff0f95b3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/3e621a5e00293742da0a2f50466ed26e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/3e621a5e00293742da0a2f50466ed26e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/f3e76415ecac3424949e867bc58a8e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/f3e76415ecac3424949e867bc58a8e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/bb0fe26166e12494f51a87ea950879e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/bb0fe26166e12494f51a87ea950879e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/34dd9c7faffb0127bdbb7f50b95cb40c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/34dd9c7faffb0127bdbb7f50b95cb40c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d95f693ed5d01f21f0ff05829a4596d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d95f693ed5d01f21f0ff05829a4596d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/a4821fcd05f710ecbf1808c1a5f028fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/a4821fcd05f710ecbf1808c1a5f028fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d2753e27700988a8e508f29696922f8c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d2753e27700988a8e508f29696922f8c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31189383715e3fa0cb552d2ab4141cb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31189383715e3fa0cb552d2ab4141cb8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/29637d37b72284107af72a1a87c59327/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/29637d37b72284107af72a1a87c59327/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8ad062e306d7df1dc1bbd3f85b33b5e3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8ad062e306d7df1dc1bbd3f85b33b5e3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/28a31802bb7b0af6e849bf32742120f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/28a31802bb7b0af6e849bf32742120f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/065c383e69a1df8d3b92083c35f54793/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/065c383e69a1df8d3b92083c35f54793/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/068b9822a4e0fe04813cf8bd27ba5d34/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/068b9822a4e0fe04813cf8bd27ba5d34/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8caf943342ae8fe4e0ca94ad63d5829b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8caf943342ae8fe4e0ca94ad63d5829b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5cf125d4ce7a7bdf0875b0af20335b1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5cf125d4ce7a7bdf0875b0af20335b1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/b9a3a5195a1b5c770f53a1311433944c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/b9a3a5195a1b5c770f53a1311433944c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/890cfcc7d516953988f7fe047b83e7ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/890cfcc7d516953988f7fe047b83e7ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/db6b59e2bc11f4029f46598d8ed556a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/db6b59e2bc11f4029f46598d8ed556a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/16876368bbaadf52ebebd1a7efb264e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/16876368bbaadf52ebebd1a7efb264e9/AndroidManifest.xml:20:5-44
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
