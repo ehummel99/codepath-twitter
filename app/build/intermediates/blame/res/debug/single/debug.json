@@ -156,6 +156,10 @@
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/a4821fcd05f710ecbf1808c1a5f028fa/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_item_tweet.xml.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/res/layout/item_tweet.xml"
+    },
+    {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -728,12 +732,12 @@
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/anim_abc_tooltip_enter.xml.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat",
