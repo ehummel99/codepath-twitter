@@ -60,6 +60,10 @@
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/a4821fcd05f710ecbf1808c1a5f028fa/res/drawable-v21/notification_action_background.xml"
     },
     {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_activity_compose.xml.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/res/layout/activity_compose.xml"
+    },
+    {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -96,6 +100,10 @@
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_compose.xml.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_compose.xml"
+    },
+    {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
@@ -114,6 +122,10 @@
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_compose.png.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/res/drawable-mdpi/ic_compose.png"
     },
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -142,6 +154,10 @@
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_compose.png.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/res/drawable-hdpi/ic_compose.png"
     },
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -250,6 +266,10 @@
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_compose.png.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/res/drawable-xxhdpi/ic_compose.png"
     },
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -410,6 +430,10 @@
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_compose.png.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/generated/res/pngs/debug/drawable-ldpi/ic_compose.png"
     },
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat",
@@ -692,6 +716,10 @@
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/menu_timeline_menu.xml.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/res/menu/timeline_menu.xml"
+    },
+    {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
     },
@@ -770,6 +798,10 @@
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_compose.png.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/res/drawable-xhdpi/ic_compose.png"
     },
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -878,6 +910,10 @@
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_compose.png.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_compose.png"
     },
     {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
