@@ -42,8 +42,10 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         //populate views according to data
         viewHolder.tvUsername.setText(tweet.user.name);
         viewHolder.tvBody.setText(tweet.body);
+        viewHolder.tvRelativeTimestamp.setText(tweet.getRelativeTimeAgo(tweet.createdAt));
 
-        Glide.with(context).load(tweet.user.profileImageUrl).into(viewHolder.ivProfileImage);
+        Glide.with(context).load(tweet.user.profileImageUrl)
+                .into(viewHolder.ivProfileImage);
     }
 
     @Override
@@ -60,6 +62,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         public ImageView ivProfileImage;
         public TextView tvUsername;
         public TextView tvBody;
+        public TextView tvRelativeTimestamp;
 
         public ViewHolder(View view) {
             super(view);
@@ -68,8 +71,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             ivProfileImage = (ImageView) view.findViewById(R.id.ivProfileImage);
             tvUsername = (TextView) view.findViewById(R.id.tvUserName);
             tvBody = (TextView) view.findViewById(R.id.tvBody);
-
-
+            tvRelativeTimestamp = (TextView) view.findViewById(R.id.tvRelativeTimestamp);
         }
     }
 }
