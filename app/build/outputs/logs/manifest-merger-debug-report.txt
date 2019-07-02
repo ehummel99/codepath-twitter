@@ -6,6 +6,8 @@ INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/code
 INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-41:12
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9edbe71b7b5b82feeb61eb54e0f26838/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/AndroidManifest.xml:17:1-22:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/57e5aa47e1ade45a50bc460ea74269f3/AndroidManifest.xml:2:1-12:12
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/248aee50b240e496a5734ae979f2cdb5/AndroidManifest.xml:2:1-12:12
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9639a028d3b3fb4ba2450e80cb36cc11/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/c46ff46f0bfaa9b0c9151af14be13bab/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5660002996e1878e3b9da89dd53ddaff/AndroidManifest.xml:2:1-13:12
@@ -140,6 +142,10 @@ MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ehummel/
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9edbe71b7b5b82feeb61eb54e0f26838/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/AndroidManifest.xml:20:5-44
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/57e5aa47e1ade45a50bc460ea74269f3/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/57e5aa47e1ade45a50bc460ea74269f3/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/248aee50b240e496a5734ae979f2cdb5/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/248aee50b240e496a5734ae979f2cdb5/AndroidManifest.xml:8:5-10:41
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9639a028d3b3fb4ba2450e80cb36cc11/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9639a028d3b3fb4ba2450e80cb36cc11/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/c46ff46f0bfaa9b0c9151af14be13bab/AndroidManifest.xml:5:5-7:41

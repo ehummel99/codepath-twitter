@@ -14,6 +14,8 @@ import com.codepath.apps.restclienttemplate.models.Tweet;
 
 import java.util.List;
 
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
+
 public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> {
 
     List<Tweet> tweets;
@@ -44,7 +46,9 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         viewHolder.tvBody.setText(tweet.body);
         viewHolder.tvRelativeTimestamp.setText(tweet.getRelativeTimeAgo(tweet.createdAt));
 
-        Glide.with(context).load(tweet.user.profileImageUrl)
+        Glide.with(context)
+                .load(tweet.user.profileImageUrl)
+                .bitmapTransform(new RoundedCornersTransformation(context, 10, 0))
                 .into(viewHolder.ivProfileImage);
     }
 
