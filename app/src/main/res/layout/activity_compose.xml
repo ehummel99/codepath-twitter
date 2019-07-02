@@ -13,11 +13,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="24dp"
         android:ems="10"
         android:hint="What's happening?"
         android:inputType="textMultiLine"
-        android:maxLength="180"
+        android:maxLength="280"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnPost"
         app:layout_constraintHorizontal_bias="0.5"
@@ -31,8 +31,21 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:text="Tweet"
+        app:layout_constraintBottom_toTopOf="@+id/tvCharacterCounter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/etTweetBody"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCharacterCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:text="0/280"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPost" />
 </android.support.constraint.ConstraintLayout>
