@@ -742,6 +742,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id ivMedia
 id ivProfileImage
 id ivUserProfile
 id left
@@ -821,9 +822,11 @@ id tvBody
 id tvCharacterCounter
 id tvDate
 id tvRelativeTimestamp
+id tvTag
 id tvTweetText
 id tvUser
 id tvUserName
+id tvUserTag
 id uniform
 id up
 id useLogo

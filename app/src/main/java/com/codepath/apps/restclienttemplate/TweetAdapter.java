@@ -24,6 +24,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
     List<Tweet> tweets;
     Context context;
 
+
     //pass tweets array to constructor
     public TweetAdapter(List<Tweet> tweets) {
         this.tweets = tweets;
@@ -48,6 +49,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         viewHolder.tvUsername.setText(tweet.user.name);
         viewHolder.tvBody.setText(tweet.body);
         viewHolder.tvRelativeTimestamp.setText(tweet.getRelativeTimeAgo(tweet.createdAt));
+        viewHolder.tvUserTag.setText("@" + tweet.user.screenName);
 
         Glide.with(context)
                 .load(tweet.user.profileImageUrl)
@@ -70,6 +72,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         public TextView tvUsername;
         public TextView tvBody;
         public TextView tvRelativeTimestamp;
+        public TextView tvUserTag;
 
         public ViewHolder(View view) {
             super(view);
@@ -78,6 +81,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             ivProfileImage = (ImageView) view.findViewById(R.id.ivProfileImage);
             tvUsername = (TextView) view.findViewById(R.id.tvUserName);
             tvBody = (TextView) view.findViewById(R.id.tvBody);
+            tvUserTag = (TextView) view.findViewById(R.id.tvUserTag);
             tvRelativeTimestamp = (TextView) view.findViewById(R.id.tvRelativeTimestamp);
             itemView.setOnClickListener(this);
         }
