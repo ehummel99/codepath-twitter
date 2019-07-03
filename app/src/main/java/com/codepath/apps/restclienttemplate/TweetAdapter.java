@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,6 +12,8 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
+
+import org.parceler.Parcels;
 
 import java.util.List;
 
@@ -62,7 +65,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
     //bind values based on position of element
 
     //create ViewHolder class
-    public static class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public ImageView ivProfileImage;
         public TextView tvUsername;
         public TextView tvBody;
@@ -76,6 +79,21 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             tvUsername = (TextView) view.findViewById(R.id.tvUserName);
             tvBody = (TextView) view.findViewById(R.id.tvBody);
             tvRelativeTimestamp = (TextView) view.findViewById(R.id.tvRelativeTimestamp);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View v) {
+            //get position of movie clicked
+            int position = getAdapterPosition();
+            //get movie at the position
+            Tweet tweet = tweets.get(position);
+            //create new intent
+            Intent intent = new Intent(context, TweetDetailActivity.class);
+            //pass movie
+            intent.putExtra(Tweet.class.getSimpleName(), Parcels.wrap(tweet));
+            //show the activity
+            context.startActivity(intent);
         }
     }
 
@@ -85,9 +103,4 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         notifyDataSetChanged();
     }
 
-    // Add a list of items -- change to type used
-    public void addAll(List<Tweet> list) {
-        tweets.addAll(list);
-        notifyDataSetChanged();
-    }
 }

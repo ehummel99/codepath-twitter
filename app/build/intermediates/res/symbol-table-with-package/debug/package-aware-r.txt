@@ -743,6 +743,7 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id ivProfileImage
+id ivUserProfile
 id left
 id line1
 id line3
@@ -818,7 +819,10 @@ id top
 id topPanel
 id tvBody
 id tvCharacterCounter
+id tvDate
 id tvRelativeTimestamp
+id tvTweetText
+id tvUser
 id tvUserName
 id uniform
 id up
@@ -862,6 +866,7 @@ layout abc_tooltip
 layout activity_compose
 layout activity_login
 layout activity_timeline
+layout activity_tweet_detail
 layout item_tweet
 layout notification_action
 layout notification_action_tombstone

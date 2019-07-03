@@ -516,6 +516,10 @@
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/color/abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_activity_tweet_detail.xml.flat",
+        "source": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/res/layout/activity_tweet_detail.xml"
+    },
+    {
         "merged": "/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
         "source": "/Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/res/layout/abc_action_mode_bar.xml"
     },
