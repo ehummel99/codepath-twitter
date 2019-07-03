@@ -47,9 +47,12 @@ public class TweetDetailActivity extends AppCompatActivity {
                 .bitmapTransform(new RoundedCornersTransformation(this, 100, 0))
                 .into(ivUserProfile);
 
-        Glide.with(this)
-                .load(tweet.entities.media_url)
-                .bitmapTransform(new RoundedCornersTransformation(this, 10, 0))
-                .into(ivMedia);
+        String mediaUrl = tweet.entities.media_url;
+        if(!mediaUrl.equals("")) {
+            Glide.with(this)
+                    .load(mediaUrl)
+                    .bitmapTransform(new RoundedCornersTransformation(this, 10, 0))
+                    .into(ivMedia);
+        }
     }
 }

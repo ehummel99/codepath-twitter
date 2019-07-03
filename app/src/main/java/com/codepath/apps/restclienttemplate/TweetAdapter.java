@@ -55,6 +55,14 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
                 .load(tweet.user.profileImageUrl)
                 .bitmapTransform(new RoundedCornersTransformation(context, 100, 0))
                 .into(viewHolder.ivProfileImage);
+
+        String mediaUrl = tweet.entities.media_url;
+        if(!mediaUrl.equals("")) {
+            Glide.with(context)
+                    .load(mediaUrl)
+                    .bitmapTransform(new RoundedCornersTransformation(context, 10, 0))
+                    .into(viewHolder.ivMediaImage);
+        }
     }
 
     @Override
@@ -73,6 +81,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         public TextView tvBody;
         public TextView tvRelativeTimestamp;
         public TextView tvUserTag;
+        public ImageView ivMediaImage;
 
         public ViewHolder(View view) {
             super(view);
@@ -83,6 +92,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             tvBody = (TextView) view.findViewById(R.id.tvBody);
             tvUserTag = (TextView) view.findViewById(R.id.tvUserTag);
             tvRelativeTimestamp = (TextView) view.findViewById(R.id.tvRelativeTimestamp);
+            ivMediaImage = (ImageView) view.findViewById(R.id.ivMediaImage);
             itemView.setOnClickListener(this);
         }
 

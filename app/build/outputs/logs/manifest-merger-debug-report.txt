@@ -6,6 +6,7 @@ INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/code
 INJECTED from /Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-43:12
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9edbe71b7b5b82feeb61eb54e0f26838/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.paging:runtime:1.0.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/b9621dd5804b155b2c31f09437abc15b/AndroidManifest.xml:17:1-22:12
 MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/57e5aa47e1ade45a50bc460ea74269f3/AndroidManifest.xml:2:1-12:12
 MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/248aee50b240e496a5734ae979f2cdb5/AndroidManifest.xml:2:1-12:12
 MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9639a028d3b3fb4ba2450e80cb36cc11/AndroidManifest.xml:17:1-22:12
@@ -30,12 +31,12 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ehummel/.gra
 MERGED from [com.android.support:support-compat:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/a4821fcd05f710ecbf1808c1a5f028fa/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d2753e27700988a8e508f29696922f8c/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31189383715e3fa0cb552d2ab4141cb8/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/29637d37b72284107af72a1a87c59327/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8ad062e306d7df1dc1bbd3f85b33b5e3/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/28a31802bb7b0af6e849bf32742120f3/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/065c383e69a1df8d3b92083c35f54793/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/068b9822a4e0fe04813cf8bd27ba5d34/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8caf943342ae8fe4e0ca94ad63d5829b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/29637d37b72284107af72a1a87c59327/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8ad062e306d7df1dc1bbd3f85b33b5e3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5cf125d4ce7a7bdf0875b0af20335b1f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/b9a3a5195a1b5c770f53a1311433944c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/890cfcc7d516953988f7fe047b83e7ab/AndroidManifest.xml:17:1-22:12
@@ -150,6 +151,8 @@ MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ehummel/
 MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/9edbe71b7b5b82feeb61eb54e0f26838/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/38be94c290f1d44940b3c4f7309d85ef/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/b9621dd5804b155b2c31f09437abc15b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/b9621dd5804b155b2c31f09437abc15b/AndroidManifest.xml:20:5-44
 MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/57e5aa47e1ade45a50bc460ea74269f3/AndroidManifest.xml:8:5-10:41
 MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/57e5aa47e1ade45a50bc460ea74269f3/AndroidManifest.xml:8:5-10:41
 MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/248aee50b240e496a5734ae979f2cdb5/AndroidManifest.xml:8:5-10:41
@@ -198,10 +201,6 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ehummel/.gra
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/d2753e27700988a8e508f29696922f8c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31189383715e3fa0cb552d2ab4141cb8/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/31189383715e3fa0cb552d2ab4141cb8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/29637d37b72284107af72a1a87c59327/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/29637d37b72284107af72a1a87c59327/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8ad062e306d7df1dc1bbd3f85b33b5e3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8ad062e306d7df1dc1bbd3f85b33b5e3/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/28a31802bb7b0af6e849bf32742120f3/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/28a31802bb7b0af6e849bf32742120f3/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/065c383e69a1df8d3b92083c35f54793/AndroidManifest.xml:20:5-44
@@ -210,6 +209,10 @@ MERGED from [android.arch.core:runtime:1.1.1] /Users/ehummel/.gradle/caches/tran
 MERGED from [android.arch.core:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/068b9822a4e0fe04813cf8bd27ba5d34/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8caf943342ae8fe4e0ca94ad63d5829b/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8caf943342ae8fe4e0ca94ad63d5829b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/29637d37b72284107af72a1a87c59327/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/29637d37b72284107af72a1a87c59327/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8ad062e306d7df1dc1bbd3f85b33b5e3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/8ad062e306d7df1dc1bbd3f85b33b5e3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5cf125d4ce7a7bdf0875b0af20335b1f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/5cf125d4ce7a7bdf0875b0af20335b1f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ehummel/.gradle/caches/transforms-2/files-2.1/b9a3a5195a1b5c770f53a1311433944c/AndroidManifest.xml:20:5-44
