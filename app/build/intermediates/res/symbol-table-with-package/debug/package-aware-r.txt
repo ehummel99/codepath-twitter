@@ -1134,6 +1134,10 @@ id group_divider
 id groups
 id home
 id homeAsUp
+id ibDetailsHeart
+id ibDetailsReply
+id ibDetailsRetweet
+id ibDetailsShare
 id ibHeart
 id ibReply
 id ibRetweet

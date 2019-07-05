@@ -1,7 +1,10 @@
 package com.codepath.apps.restclienttemplate;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,6 +24,7 @@ public class TweetDetailActivity extends AppCompatActivity {
     TextView tvDate;
     TextView tvTag;
     ImageView ivMedia;
+    ImageButton ibReply;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +37,7 @@ public class TweetDetailActivity extends AppCompatActivity {
         tvDate = (TextView) findViewById(R.id.tvDate);
         tvTag = (TextView) findViewById(R.id.tvTag);
         ivMedia = (ImageView) findViewById(R.id.ivMedia);
+        ibReply = (ImageButton) findViewById(R.id.ibDetailsReply);
 
         tweet = (Tweet) Parcels.unwrap(getIntent().getParcelableExtra(Tweet.class.getSimpleName()));
 
@@ -54,5 +59,19 @@ public class TweetDetailActivity extends AppCompatActivity {
                     .bitmapTransform(new RoundedCornersTransformation(this, 10, 0))
                     .into(ivMedia);
         }
+
+        ibReply.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onReplyTweet();
+            }
+        });
+    }
+
+    public void onReplyTweet() {
+        Intent intent = new Intent(TweetDetailActivity.this, ComposeActivity.class);
+        intent.putExtra("Reply", "true");
+        intent.putExtra(Tweet.class.getSimpleName(), Parcels.wrap(tweet.user));
+        startActivity(intent);
     }
 }
