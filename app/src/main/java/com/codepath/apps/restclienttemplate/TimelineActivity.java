@@ -35,7 +35,27 @@ public class TimelineActivity extends AppCompatActivity {
     ArrayList<Tweet> tweets;
     RecyclerView rvTweets;
     long maxId = 0;
+    MenuItem miActionProgressItem;
 
+    public void showProgressBar() {
+        // Show progress item
+        miActionProgressItem.setVisible(true);
+    }
+
+    public void hideProgressBar() {
+        // Hide progress item
+        miActionProgressItem.setVisible(false);
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        // Store instance of the menu item containing progress
+        miActionProgressItem = menu.findItem(R.id.miActionProgress);
+        populateTimeline(maxId);
+
+        // Return to finish
+        return super.onPrepareOptionsMenu(menu);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -92,7 +112,7 @@ public class TimelineActivity extends AppCompatActivity {
         //set swipe refresh layout
 
         client = TwitterApp.getRestClient(this);
-        populateTimeline(maxId);
+
 
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
 
@@ -120,6 +140,7 @@ public class TimelineActivity extends AppCompatActivity {
 
 
     public void populateTimeline(long maxId) {
+        showProgressBar();
         client.getHomeTimeline(maxId, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
@@ -135,24 +156,31 @@ public class TimelineActivity extends AppCompatActivity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
+                hideProgressBar();
             }
 
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 //Log.d("Twitter client", response.toString());
+                showProgressBar();
+                hideProgressBar();
 
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
+                showProgressBar();
                 Log.d("Twitter client", responseString);
                 throwable.printStackTrace();
+                hideProgressBar();
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONArray errorResponse) {
+                showProgressBar();
                 Log.d("Twitter client", errorResponse.toString());
                 throwable.printStackTrace();
+                hideProgressBar();
             }
         });
     }
