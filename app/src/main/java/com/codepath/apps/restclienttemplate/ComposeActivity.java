@@ -27,11 +27,15 @@ public class ComposeActivity extends AppCompatActivity {
     EditText etTweet;
     TwitterClient client;
     TextView tvCharacterCounter;
+    String isReply;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compose);
+
+        isReply = (String) getIntent().getStringExtra("Reply");
+        User user = (User) Parcels.unwrap(getIntent().getParcelableExtra(Tweet.class.getSimpleName()));
 
         etTweet = findViewById(R.id.etTweetBody);
         btnSend = findViewById(R.id.btnPost);
@@ -47,6 +51,10 @@ public class ComposeActivity extends AppCompatActivity {
         etTweet.addTextChangedListener(mTextEditorWatcher);
 
         client = TwitterApp.getRestClient(this);
+
+        if(isReply.equals("true")) {
+            etTweet.setText("@" + user.screenName);
+        }
     }
 
     private final TextWatcher mTextEditorWatcher = new TextWatcher() {

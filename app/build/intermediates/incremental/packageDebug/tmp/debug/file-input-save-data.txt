@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jul 03 16:06:21 PDT 2019
+#Fri Jul 05 15:56:52 PDT 2019
 7.path=lib/arm64-v8a/libgpuimage-library.so
 2.base=/Users/ehummel/AndroidStudioProjects/codepath-twitter/Twitter/codepath-twitter/app/build/intermediates/transforms/mergeJniLibs/debug/0
 5.set=NATIVE_RESOURCE

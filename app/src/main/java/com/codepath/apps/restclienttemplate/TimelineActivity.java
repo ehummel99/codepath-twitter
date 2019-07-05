@@ -30,9 +30,12 @@ public class TimelineActivity extends AppCompatActivity {
     private SwipeRefreshLayout swipeRefreshLayout;
     //for intent when composing tweet
     private final int REQUEST_CODE = 20;
+    private EndlessRecyclerViewScrollListener scrollListener;
     TweetAdapter tweetAdapter;
     ArrayList<Tweet> tweets;
     RecyclerView rvTweets;
+    long maxId = 0;
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -43,8 +46,11 @@ public class TimelineActivity extends AppCompatActivity {
 
     public void onComposeAction(MenuItem menuItem) {
         Intent intent = new Intent(TimelineActivity.this, ComposeActivity.class);
+        intent.putExtra("Reply", "false");
         startActivityForResult(intent, REQUEST_CODE);
     }
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -70,21 +76,30 @@ public class TimelineActivity extends AppCompatActivity {
         //construct adapter
         tweetAdapter = new TweetAdapter(tweets);
 
-        //RecyclerView setup
-        rvTweets.setLayoutManager(new LinearLayoutManager(this));
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        rvTweets.setLayoutManager(linearLayoutManager);
+        scrollListener = new EndlessRecyclerViewScrollListener(linearLayoutManager) {
+            @Override
+            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
+                // Triggered only when new data needs to be appended to the list
+                // Add whatever code is needed to append new items to the bottom of the list
+                loadNextDataFromApi(page);
+            }
+        };
+        rvTweets.addOnScrollListener(scrollListener);
         //set the adapter
         rvTweets.setAdapter(tweetAdapter);
         //set swipe refresh layout
 
         client = TwitterApp.getRestClient(this);
-        populateTimeline();
+        populateTimeline(maxId);
 
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
 
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                populateTimeline();
+                populateTimeline(maxId);
             }
         });
 
@@ -95,9 +110,17 @@ public class TimelineActivity extends AppCompatActivity {
                 android.R.color.holo_red_light);
     }
 
+    public void loadNextDataFromApi(int offset) {
+        // Send an API request to retrieve appropriate paginated data
 
-    public void populateTimeline() {
-        client.getHomeTimeline(new JsonHttpResponseHandler() {
+        // id of last tweet
+        maxId = tweets.get(tweets.size() - 1).uid;
+        populateTimeline(maxId);
+    }
+
+
+    public void populateTimeline(long maxId) {
+        client.getHomeTimeline(maxId, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
                 //Log.d("Twitter client",response.toString());

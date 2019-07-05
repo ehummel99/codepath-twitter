@@ -50,6 +50,7 @@ public class Entities$$Parcelable
             parcel$$1 .writeInt(identity$$0);
         } else {
             parcel$$1 .writeInt(identityMap$$0 .put(entities$$1));
+            parcel$$1 .writeInt((entities$$1 .has_entity? 1 : 0));
             parcel$$1 .writeString(entities$$1 .media_url);
         }
     }
@@ -76,6 +77,7 @@ public class Entities$$Parcelable
             int reservation$$0 = identityMap$$1 .reserve();
             entities$$4 = new com.codepath.apps.restclienttemplate.models.Entities();
             identityMap$$1 .put(reservation$$0, entities$$4);
+            entities$$4 .has_entity = (parcel$$3 .readInt() == 1);
             entities$$4 .media_url = parcel$$3 .readString();
             com.codepath.apps.restclienttemplate.models.Entities entities$$3 = entities$$4;
             identityMap$$1 .put(identity$$1, entities$$3);
